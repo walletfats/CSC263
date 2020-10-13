@@ -1,3 +1,8 @@
+#include <iostream>
+#include <string> 
+#include <iomanip>
+using namespace std;
+
 struct Division {
   String divName;
   double salesDiv1,
