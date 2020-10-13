@@ -1,11 +1,10 @@
-#include <iostream>
-#include <string> 
-#include <iomanip>
-using namespace std;
+include "CorpData.h";
 
 
 int main() {
+  Divison temp;
   
+  temp.average = 1;
   
   return 0;
 }
