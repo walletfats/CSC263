@@ -4,7 +4,7 @@
 using namespace std;
 
 struct Division {
-  String divName;
+  string divName;
   double salesDiv1,
   salesDiv2,
   salesDiv3,
