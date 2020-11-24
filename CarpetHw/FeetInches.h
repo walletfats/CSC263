@@ -54,6 +54,7 @@ public:
    bool operator <=(const FeetInches &);
    bool operator != (const FeetInches &);
    FeetInches(const FeetInches &);
+   FeetInches Multiply(FeetInches &);
 
    // Conversion functions
    operator double();
