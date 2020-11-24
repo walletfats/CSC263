@@ -26,7 +26,7 @@ public:
       { feet = f;
         inches = i;
         simplify(); }
-
+   
    // Mutator functions
    void setFeet(int f)
       { feet = f; }
@@ -41,6 +41,8 @@ public:
 
    int getInches() const
       { return inches; }
+   
+   FeetInches* ptr;
 
    // Overloaded operator functions
    FeetInches operator + (const FeetInches &);
