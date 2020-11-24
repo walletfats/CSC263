@@ -193,9 +193,16 @@ bool FeetInches::operator <=(const FeetInches &right) {
     else
         status = false;
 }
-
+/*
+Method which will return a new feet inches object with multiplied dimensions.
+Param : right - the passed in feetinches object.
+*/
 FeetInches FeetInches::Multiply(FeetInches &right) {
+   FeetInches temp;
+   temp.feet = this->feet * right.feet;
+   temp.inches = this->inches * right.inches;
    
+   return temp;
 }
 
 FeetInches::FeetInches(const FeetInches &right) {feet = right.feet, inches = right.inches;}
