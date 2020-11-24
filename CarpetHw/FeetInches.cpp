@@ -194,6 +194,10 @@ bool FeetInches::operator <=(const FeetInches &right) {
         status = false;
 }
 
+FeetInches FeetInches::Multiply(FeetInches &right) {
+   
+}
+
 FeetInches::FeetInches(const FeetInches &right) {feet = right.feet, inches = right.inches;}
 
 //********************************************************
