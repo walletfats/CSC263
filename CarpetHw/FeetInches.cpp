@@ -11,7 +11,9 @@
 // 3 feet 14 inches would be adjusted to 4 feet 2 inches and *
 // 5 feet -2 inches would be adjusted to 4 feet 10 inches.   *
 //************************************************************
-
+FeetInches::~FeetInches() {
+   delete ptr;
+}
 void FeetInches::simplify()
 {
    if (inches >= 12)
